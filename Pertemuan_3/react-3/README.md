@@ -52,3 +52,27 @@ Hasil Screenshot:
 ![Screenshot](assets/Picture6.png)
 
 
+## TUGAS
+
+
+Hasil Screenshot: 
+
+http://localhost:3000/users 
+
+![Screenshot](assets/Picture7.png)
+
+
+
+http://localhost:3000/users/1
+
+![Screenshot](assets/Picture8.png)
+
+
+http://localhost:3000/weather
+(sudah generate API KEY di OpenWeather tetapi tidak bisa digunakan)
+
+![Screenshot](assets/Picture9.png)
+
+
+
+
