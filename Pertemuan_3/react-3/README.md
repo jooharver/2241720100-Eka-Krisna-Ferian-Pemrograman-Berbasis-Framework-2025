@@ -23,3 +23,32 @@ Hasil Screenshot:
 Hasil Screenshot: 
 
 ![Screenshot](assets/Picture2.png)
+
+
+## D. Menggunakan Dynamic Routes
+
+
+Hasil Screenshot: 
+
+![Screenshot](assets/Picture3.png)
+
+
+## E. Menggunakan API Routes
+
+
+Hasil Screenshot: 
+
+![Screenshot](assets/Picture4.png)
+
+
+## F. Menggunakan Link Component
+
+
+Hasil Screenshot: 
+
+![Screenshot](assets/Picture5.png)
+
+
+![Screenshot](assets/Picture6.png)
+
+
