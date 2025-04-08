@@ -1,35 +1,23 @@
-import Image, {StaticImageData} from 'next/image';
+import type { Metadata } from 'next';
+import Image, { StaticImageData } from 'next/image';
 import image1 from '../../../public/images/project1.svg';
 import image2 from '../../../public/images/project2.jpg';
-// import type {Metadata} from 'next';
 
-// export const metadata:Metadata = {
-//   title : 'Proyek',
-//   description: 'Halaman Proyek',
-//   openGraph: {
-//     title:'Proyek',
-//     description: 'Halaman Proyek.',
-//   },
-// };
+export const metadata: Metadata = {
+  title: 'Proyek Saya',
+  description: 'Berikut adalah kumpulan proyek yang telah dibuat oleh Eka Krisna Ferian menggunakan berbagai teknologi modern.',
+  openGraph: {
+    images: 'https://yourdomain.com/images/project2.jpg', // Ganti dengan URL gambar representative
+    url: 'https://yourdomain.com/projects', // Sesuaikan dengan URL asli
+  },
+};
 
-// export default function Home(){
-//   return (
-//     <div className="mt-16 px-8">
-//       <header>
-//         <h1 className='font-bold text-4xl text-zinc-800'>Proyek</h1>
-//       </header>
-//     </div>
-//   );
-// };
-
-// type ProjectItemProps = {
-//   name: string;
-//   url: string;
-//   urlDisplay: string;
-//   imageSrc: StaticImageData;
-// };
-
-function ProjectItem({ name, url, urlDisplay, imageSrc }: ProjectItemProps) {
+function ProjectItem({ name, url, urlDisplay, imageSrc }: {
+  name: string;
+  url: string;
+  urlDisplay: string;
+  imageSrc: StaticImageData;
+}) {
   return (
     <li>
       <a href={url}>
@@ -48,6 +36,7 @@ function ProjectItem({ name, url, urlDisplay, imageSrc }: ProjectItemProps) {
     </li>
   );
 }
+
 export default function Projects() {
   return (
     <div className="mt-16 px-8">

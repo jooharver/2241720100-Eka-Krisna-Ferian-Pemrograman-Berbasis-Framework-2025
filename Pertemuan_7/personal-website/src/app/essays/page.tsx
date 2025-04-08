@@ -1,10 +1,21 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Esai',
+  description: 'Kumpulan esai pemikiran dan opini Eka Krisna Ferian seputar teknologi, AI, dan etika pemrograman.',
+  openGraph: {
+    images: 'https://yourdomain.com/images/robot.jpg', // Ganti dengan URL gambar publik yang mewakili halaman esai
+    url: 'https://yourdomain.com/esai', // Ganti dengan URL aslinya
+  },
+};
+
 export default function Esai() {
   const articles = [
     {
       title: "Mengapa Teknologi Penting?",
       date: "April 2025",
       excerpt: "Pandangan tentang pentingnya teknologi di era modern.",
-      image: "/images/robot.jpg", // Ganti dengan path gambar kamu
+      image: "/images/robot.jpg",
     },
     {
       title: "AI dan Masa Depan",

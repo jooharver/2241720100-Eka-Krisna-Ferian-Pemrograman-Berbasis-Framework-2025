@@ -1,8 +1,19 @@
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Tentang Saya',
+  description: 'Halaman tentang Eka Krisna Ferian, seorang pengembang web dari Politeknik Negeri Malang.',
+  openGraph: {
+    images: 'https://yourdomain.com/images/saya.JPG', // Ganti dengan URL gambar kamu yang valid
+    url: 'https://yourdomain.com/tentang', // Ganti dengan URL halaman kamu
+  },
+};
+
 export default function TentangSaya() {
   return (
     <div className="px-6 py-12 max-w-4xl mx-auto text-center">
       <img
-        src="/images/saya.JPG" // Ganti dengan foto kamu
+        src="/images/saya.JPG"
         alt="Foto Saya"
         className="w-32 h-32 rounded-full mx-auto mb-4 shadow-lg"
       />

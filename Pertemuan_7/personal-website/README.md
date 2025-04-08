@@ -1,5 +1,5 @@
 
-## Laporan Pertemuan 5
+## Laporan Pertemuan 7
 
 |  | Pemrograman Berbasis Framework 2025 |
 |--|--|
@@ -10,61 +10,51 @@
 
 ### Langkah langkah Praktikum
 
-1. Persiapan Lingkungan
+6.2. Menambahkan Favicon
 
-Hasil Screenshot: 
+Hasil Screenshot:
 
-![Screenshot](assets/Picture1.png)
+![Screenshot](assets/Picture11.png)
 
-2. Membuat Halaman Website
+
+6.3. Menambahkan Metadata untuk SEO
+
 
 Hasil Screenshot:
 
 Tentang Saya:
 
-![Screenshot](assets/Picture2.png)
+![Screenshot](assets/Picture11.png)
 
-Proyek :
 
-![Screenshot](assets/Picture3.png)
+Proyek:
 
-Essai :
+![Screenshot](assets/Picture12.png)
 
-![Screenshot](assets/Picture4.png)
 
-3. Membuat Layout dan Navigasi
+Essai:
 
-Hasil Screenshot:
+![Screenshot](assets/Picture13.png)
 
-Tentang Saya:
+6.5. Menguji SEO
 
-![Screenshot](assets/Picture5.png)
 
-Proyek :
-
-![Screenshot](assets/Picture6.png)
-
-Essai :
-
-![Screenshot](assets/Picture7.png)
-
-4. Membuat Halaman Proyek dengan Grid Responsif
 
 Hasil Screenshot:
 
-![Screenshot](assets/Picture8.png)
+![Screenshot](assets/Picture14.png)
+
+
 
 ### Tugas
 
-1. Modifikasi halaman "Esai" dengan Grid daftar artikel yang telah ditulis.
+Lakukan pengujian SEO dengan
+
+1. Gunakan tools seperti Google Search Console untuk memeriksa performa SEO dari suatu
+website
+
+Untuk pengujian SEO saya pakai Lighthouse
 
 Hasil Screenshot:
 
-![Screenshot](assets/Picture9.png)
-
-
-2. Modifikasi halaman “Tentang Saya” Buat tampilan yang menarik
-
-Hasil Screenshot:
-
-![Screenshot](assets/Picture10.png)
+![Screenshot](assets/Picture15.png)
